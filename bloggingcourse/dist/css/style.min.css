@@ -804,14 +804,14 @@ summary::-webkit-details-marker {
 }
 .slider__previous {
   left: 0;
-  background-image: url("/img/icon-prev.svg");
+  background-image: url("../img/icon-prev.svg");
 }
 .slider__previous:hover {
   transform: scale(1.25);
 }
 .slider__next {
   right: 0;
-  background-image: url("/img/icon-next.svg");
+  background-image: url("../img/icon-next.svg");
 }
 .slider__next:hover {
   transform: scale(1.25);
