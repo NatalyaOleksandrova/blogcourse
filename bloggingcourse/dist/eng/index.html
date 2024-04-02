@@ -1,19 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
-    <link rel="preload" href="../css/fontawesome.min.css" as="style" onload="this.rel='stylesheet'" > 
-    <link rel="preload" href="../css/solid.min.css" as="style" onload="this.rel='stylesheet'" > 
-    <link rel="preload" href="../css/brands.min.css" as="style" onload="this.rel='stylesheet'" > 
-    
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="..css/fontawesome.min.css" as="style" onload="this.rel='stylesheet'" > 
-    <link rel="stylesheet" href="..css/solid.min.css" as="style" onload="this.rel='stylesheet'" > 
-    <link rel="stylesheet" href="..css/brands.min.css" as="style" onload="this.rel='stylesheet'" > 
-    <link rel="stylesheet" href="..css/style.min.css">
-    <link rel="preload" href="https://code.jquery.com/jquery-3.5.1.min.js?_v=20240318170221" as="script">
-    <script src="https://code.jquery.com/jquery-3.5.1.min.js?_v=20240318170221"></script>
+     <style>.left-animation{opacity:0;transform: translate3d(-50px, 0, 0);}.left-animation._active{opacity: 1;transform: translate3d(0, 0, 0);}@media(max-width:425px){.left-animation{animation: fadeIn 5s;}@keyframes fadeIn {
+        from { 
+          opacity: 0;
+        }
+        to {
+          opacity: 1;
+        }
+      }}</style> 
+     <link rel="stylesheet" href="../css/fontawesome.min.css"> 
+     <link rel="stylesheet" href="../css/solid.min.css"> 
+     <link rel="stylesheet" href="../css/brands.min.css">  
+    <link rel="preload" href="../css/style.min.css" as="style">
+    <link rel="stylesheet" href="../css/style.min.css">
+    <script defer src="https://cdnjs.cloudflare.com/ajax/libs/lazysizes/5.1.2/lazysizes.min.js"></script>
     <title>Main</title>
     <meta name="description" content="Unlock your blogging potential with our high-quality courses. Becoming a blogger has never been easier or more fun. Choose your path to success today!" />
 </head>
@@ -703,8 +707,7 @@
     </div>
 </footer>
     </div>     
-        <script src="https://www.google-analytics.com/analytics.js" defer></script>
-        <script src="../js/lazysizes.min.js" async=""></script>
+       <script defer fetchpriority="low" src="https://www.google-analytics.com/analytics.js"></script>
         <script src="../js/app.min.js" async></script>
     </body>
 </html>
